@@ -1,0 +1,16 @@
+numpy
+transformers
+sentence-transformers
+Pillow
+mwparserfromhell
+requests
+tqdm
+nltk>=3.8
+scipy
+Unidecode
+fire
+xgboost
+gensim
+scikit-learn
+sentencepiece
+fasttext-wheel
