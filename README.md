@@ -13,7 +13,7 @@ Clone the repository, execute `mvn package` to build the app, and `java -jar tar
 In order to build a new index, you need to download the appropriate Wikipedia dump in `pages-articles` format from the [Wikimedia Downloads](https://dumps.wikimedia.org/) respository.
 Then, you can execute the `vwsd/wikipedia.py` script.
 
-Instead of building an index from scratch, you can also download our [pre-built indexes](https://witedupl-my.sharepoint.com/:u:/g/personal/dadass_wit_edu_pl/EcS92fvsWNVIubevnnLBc9sBDo_sM4bYGmDZVpFZkfyGaw?e=QDgqo2) for English, Italian and Persian.
+Instead of building an index from scratch, you can also download our [pre-built indexes](https://1drv.ms/u/c/71e57b049afd0d97/EYsDLJf-ykRKjsBsIyS-gvAB1RmvbFe_LumC1xPJWubESw?e=N2ptLe) for English, Italian and Persian.
 Unzip the archive to the directory from which you run the Java program.
 
 ### 3. Download WIT dataset
@@ -32,7 +32,7 @@ python run_model.py --wit_dir [path_to_wit_directory] --data_dir [path_to_vwsd_t
 ### 5. Download additional models for Italian and Persian
 
 For languages other than English, the code uses additional models which need to be downloaded. 
-First, download the fine-tuned [CLIP text encoders for Italian and Persian](https://witedupl-my.sharepoint.com/:u:/g/personal/dadass_wit_edu_pl/EU8kKOQelHZKiwNwn1727oABP_JncW-2OyLdvOqxAq3ekg?e=gpn40y), and then extract them in the project directory.
+First, download the fine-tuned [CLIP text encoders for Italian and Persian](https://1drv.ms/u/c/71e57b049afd0d97/EWBLYUjSANhAtauVGgh-ULgBJyQbAZXgMZBOyh1nC07f4Q?e=vPdNE5), and then extract them in the project directory.
 Next, create a new directory named `embeddings` in the project root directory.
 Download the [FastText models](https://fasttext.cc/docs/en/crawl-vectors.html) for Italian and Persian, and place them in the newly created directory.
 
